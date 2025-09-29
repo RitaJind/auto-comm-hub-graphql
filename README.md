@@ -148,4 +148,4 @@ This GraphQL API demonstrates enterprise-level solutions for automotive financia
 
 **Rita Jindal** - Software Engineer
 
-*Passionate about building scalable, secure, and maintainable software solutions. Experienced in GraphQL API development, microservices architecture and cloud-native development.*
+*Passionate about building scalable, secure, and maintainable software solutions. Experienced in GraphQL API development, microservices architecture, cloud-native, and full-stack software development.*
