@@ -1,27 +1,71 @@
-# Automotive Customer Communication Hub GraphQL API
+# 🚗 Automotive Customer Communication Hub GraphQL API
 
-A GraphQL API simulating a centralized hub for managing automotive financial services customer communication history and preferences. This project demonstrates GraphQL's power for integrating and exposing data from various communication services, supporting both queries and mutations for customer interactions.
+A **GraphQL API** built with Nod## 🖼️ Application Screenshots
 
-## 🎯 Project Overview
+### GraphQL Query Execution
+<img src="./images/GraphQL_query.png" alt="GraphQL Query" width="50%">
 
-This project aligns with building scalable, reusable communication services in a financial context, specifically designed for automotive financial services. It showcases how GraphQL provides a unified API for frontends consuming data from disparate backend systems (simulated by mock data).
+*Customer data retrieval with nested communication logs*
 
-## ✨ Features
+### GraphQL Mutation Operations
+<img src="./images/GraphQL_mutation.png" alt="GraphQL Mutation" width="50%">
 
-- **GraphQL Schema** for Customer & Communication Logs management
-- **Query Operations** for retrieving customer details and communication history
-- **Mutation Operations** for logging new communications and updating statuses
-- **Simulated Data Aggregation** from different "microservices"
-- **Relationship Resolvers** for nested queries between customers and communications
-- **TypeScript** for type safety and better development experience
+*Adding new customer communications*
 
-## 🛠 Technologies Used
+### Combined Query & Mutation Workflow
+<img src="./images/GraphQL_query_mutation.png" alt="GraphQL Query & Mutation" width="50%">
 
-- **Node.js** - Runtime environment
-- **TypeScript** - Type-safe JavaScript
-- **Express** - Web framework
-- **Apollo Server** - GraphQL server implementation
-- **GraphQL** - Query language for APIs
+*Full CRUD operations demonstration*, and Apollo Server for managing automotive financial services customer communication history and preferences.
+
+![GraphQL](https://img.shields.io/badge/GraphQL-16+-E10098.svg)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6.svg)
+![Apollo Server](https://img.shields.io/badge/Apollo_Server-4+-311C87.svg)
+
+## 🚀 Overview
+
+Enterprise-grade GraphQL API demonstrating scalable communication services architecture for automotive financial services. Features comprehensive schema design, nested resolvers, and real-time data management capabilities that simulate integration with CRM and communication platforms.
+
+## 📋 Features
+
+### 🎯 **GraphQL Operations**
+- Comprehensive query system for customer and communication data retrieval
+- Mutation operations for logging communications and status updates
+- Nested relationship resolvers between customers and communication logs
+- Flexible filtering by customer ID, communication channel, and status
+
+### 🏗️ **Architecture Features**
+- TypeScript for enhanced type safety and developer experience
+- Apollo Server integration with Express middleware
+- Mock data simulation of microservices architecture
+- RESTful patterns adapted for GraphQL paradigms
+
+### 💼 **Business Logic**
+- Automotive financial services context (loan statements, payment reminders)
+- Multi-channel communication support (Email, SMS, Call, App Notifications)
+- Status tracking throughout communication lifecycle
+- Customer preference management
+
+## 🏃‍♂️ Quick Start
+
+```bash
+# Clone and install
+git clone https://github.com/RitaJind/auto-comm-hub-graphql.git
+cd auto-comm-hub-graphql
+npm install
+
+# Start development server
+npm start
+# Open http://localhost:4000/graphql
+```
+
+## 🏗️ Tech Stack
+
+- **Backend**: Node.js 18+, TypeScript 5+
+- **GraphQL**: Apollo Server 4+, GraphQL 16+
+- **Web Framework**: Express.js
+- **Development**: ts-node, UUID generation
+- **Type Safety**: Full TypeScript implementation
 
 ## 🚀 Getting Started
 
@@ -57,7 +101,57 @@ This project aligns with building scalable, reusable communication services in a
 - `npm run serve` - Run the built JavaScript version
 - `npm run dev` - Start with file watching for development
 
-## 📋 GraphQL Schema
+## �️ Application Screenshots
+
+### GraphQL Query Execution
+![GraphQL Query](./images/GraphQL_query.png)
+
+*Customer data retrieval with nested communication logs*
+
+### GraphQL Mutation Operations
+![GraphQL Mutation](./images/GraphQL_mutation.png)
+
+*Adding new customer communications*
+
+### Combined Query & Mutation Workflow
+![GraphQL Query & Mutation](./images/GraphQL_query_mutation.png)
+
+*Full CRUD operations demonstration*
+
+## 📁 Project Structure
+
+```text
+auto-comm-hub-graphql/
+├── src/
+│   ├── index.ts          # Apollo Server setup with Express
+│   ├── schema.ts         # GraphQL type definitions
+│   ├── resolvers.ts      # Query & mutation resolvers
+│   ├── types.ts          # TypeScript interfaces
+│   └── mockData.ts       # In-memory data simulation
+├── images/               # Application screenshots
+├── package.json          # Dependencies and scripts
+├── tsconfig.json         # TypeScript configuration
+└── README.md            # Project documentation
+```
+
+## 🚧 Development Status
+
+### ✅ **Completed**
+- GraphQL schema design with comprehensive type system
+- Query resolvers for customer and communication data
+- Mutation operations for CRUD functionality
+- Nested relationship resolvers
+- TypeScript implementation with full type safety
+- Apollo Server integration with Express middleware
+
+### 🔄 **Planned Enhancements**
+- Database integration (PostgreSQL/MongoDB)
+- Authentication and authorization middleware
+- Real-time subscriptions for communication updates
+- Performance optimization with DataLoader
+- API rate limiting and caching strategies
+
+## �📋 GraphQL Schema
 
 ### Types
 
@@ -149,28 +243,30 @@ auto-comm-hub-graphql/
 └── README.md
 ```
 
-## 🎯 Relevance to Automotive Financial Services
+## 🎯 Business Value & Technical Impact
 
-This project directly demonstrates key concepts relevant to automotive financial services:
+### **Automotive Financial Services Integration**
+This GraphQL API demonstrates enterprise-level solutions for automotive financial services:
 
-- **Scalable Communication Services**: Shows how to build unified APIs that can aggregate multiple communication channels
-- **GraphQL Integration**: Demonstrates modern API design patterns for complex data relationships
-- **CRM Integration Simulation**: Mimics real-world scenarios where customer data comes from various sources
-- **Financial Services Context**: Uses realistic automotive finance scenarios (loan statements, payment reminders, promotional offers)
-- **Microservices Pattern**: GraphQL acts as an API Gateway, aggregating data from different mock "services"
+- **Unified Communication Hub**: Aggregates multiple communication channels (Email, SMS, App Notifications) through a single GraphQL endpoint
+- **CRM Integration Ready**: Schema designed to integrate with existing customer relationship management systems
+- **Microservices Architecture**: GraphQL acts as an API Gateway, perfect for modern distributed systems
+- **Financial Context**: Real-world scenarios including loan statements, payment reminders, and promotional offers
 
-## 🔧 Development
+### **GraphQL Best Practices Demonstrated**
+- Complex nested queries with relationship resolvers
+- Efficient data fetching patterns
+- Type-safe mutations for data manipulation
+- Schema-first development approach
+- Modern Apollo Server integration patterns
 
-The project uses in-memory mock data for simplicity, allowing focus on GraphQL implementation rather than database management. This makes it perfect for demonstrating API design patterns and GraphQL capabilities.
+---
 
-## 📈 Future Enhancements
+## 👨‍� About the Developer
 
-- Database integration (PostgreSQL/MongoDB)
-- Authentication and authorization
-- Real-time subscriptions for communication updates
-- Integration with actual communication providers
-- Performance optimization with DataLoader
-- API rate limiting and caching
+**Rita Jindal** - Full Stack Developer
+
+*Passionate about building scalable, secure, and maintainable software solutions. Experienced in GraphQL API development, microservices architecture, and automotive financial services technology solutions.*
 
 ## 📄 License
 
