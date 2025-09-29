@@ -1,32 +1,17 @@
 # 🚗 Automotive Customer Communication Hub GraphQL API
 
-A **GraphQL API** built with Nod## 🖼️ Application Screenshots
-
-### GraphQL Query Execution
-<img src="./images/GraphQL_query.png" alt="GraphQL Query" width="50%">
-
-*Customer data retrieval with nested communication logs*
-
-### GraphQL Mutation Operations
-<img src="./images/GraphQL_mutation.png" alt="GraphQL Mutation" width="50%">
-
-*Adding new customer communications*
-
-### Combined Query & Mutation Workflow
-<img src="./images/GraphQL_query_mutation.png" alt="GraphQL Query & Mutation" width="50%">
-
-*Full CRUD operations demonstration*, and Apollo Server for managing automotive financial services customer communication history and preferences.
+*Full CRUD operations demonstration, and Apollo Server for managing automotive financial services customer communication history and preferences.
 
 ![GraphQL](https://img.shields.io/badge/GraphQL-16+-E10098.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6.svg)
 ![Apollo Server](https://img.shields.io/badge/Apollo_Server-4+-311C87.svg)
 
-## 🚀 Overview
+##  Overview
 
 Enterprise-grade GraphQL API demonstrating scalable communication services architecture for automotive financial services. Features comprehensive schema design, nested resolvers, and real-time data management capabilities that simulate integration with CRM and communication platforms.
 
-## 📋 Features
+##  Features
 
 ### 🎯 **GraphQL Operations**
 - Comprehensive query system for customer and communication data retrieval
@@ -34,32 +19,19 @@ Enterprise-grade GraphQL API demonstrating scalable communication services archi
 - Nested relationship resolvers between customers and communication logs
 - Flexible filtering by customer ID, communication channel, and status
 
-### 🏗️ **Architecture Features**
+###  **Architecture Features**
 - TypeScript for enhanced type safety and developer experience
 - Apollo Server integration with Express middleware
 - Mock data simulation of microservices architecture
 - RESTful patterns adapted for GraphQL paradigms
 
-### 💼 **Business Logic**
+###  **Business Logic**
 - Automotive financial services context (loan statements, payment reminders)
 - Multi-channel communication support (Email, SMS, Call, App Notifications)
 - Status tracking throughout communication lifecycle
 - Customer preference management
 
-## 🏃‍♂️ Quick Start
-
-```bash
-# Clone and install
-git clone https://github.com/RitaJind/auto-comm-hub-graphql.git
-cd auto-comm-hub-graphql
-npm install
-
-# Start development server
-npm start
-# Open http://localhost:4000/graphql
-```
-
-## 🏗️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Node.js 18+, TypeScript 5+
 - **GraphQL**: Apollo Server 4+, GraphQL 16+
@@ -67,32 +39,14 @@ npm start
 - **Development**: ts-node, UUID generation
 - **Type Safety**: Full TypeScript implementation
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
 - Node.js (v16+ recommended)
 - npm or yarn
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/RitaJind/auto-comm-hub-graphql.git
-   cd auto-comm-hub-graphql
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-4. Open GraphQL Playground at: `http://localhost:4000/graphql`
+Open GraphQL Playground at: `http://localhost:4000/graphql`
 
 ### Available Scripts
 
@@ -113,12 +67,7 @@ npm start
 
 *Adding new customer communications*
 
-### Combined Query & Mutation Workflow
-![GraphQL Query & Mutation](./images/GraphQL_query_mutation.png)
-
-*Full CRUD operations demonstration*
-
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 auto-comm-hub-graphql/
@@ -262,12 +211,8 @@ This GraphQL API demonstrates enterprise-level solutions for automotive financia
 
 ---
 
-## 👨‍� About the Developer
+## About the Developer
 
-**Rita Jindal** - Full Stack Developer
+**Rita Jindal** - Software Engineer
 
-*Passionate about building scalable, secure, and maintainable software solutions. Experienced in GraphQL API development, microservices architecture, and automotive financial services technology solutions.*
-
-## 📄 License
-
-MIT License - see LICENSE file for details
+*Passionate about building scalable, secure, and maintainable software solutions. Experienced in GraphQL API development, microservices architecture and cloud-native development.*
