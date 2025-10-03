@@ -1,4 +1,4 @@
-# 🚗 Automotive Customer Communication Hub GraphQL API
+#  Automotive Customer Communication Hub GraphQL API
 
 *Full CRUD operations demonstration, and Apollo Server for managing automotive financial services customer communication history and preferences.
 
@@ -13,7 +13,7 @@ Enterprise-grade GraphQL API demonstrating scalable communication services archi
 
 ##  Features
 
-### 🎯 **GraphQL Operations**
+###  **GraphQL Operations**
 - Comprehensive query system for customer and communication data retrieval
 - Mutation operations for logging communications and status updates
 - Nested relationship resolvers between customers and communication logs
@@ -55,7 +55,7 @@ Open GraphQL Playground at: `http://localhost:4000/graphql`
 - `npm run serve` - Run the built JavaScript version
 - `npm run dev` - Start with file watching for development
 
-## �️ Application Screenshots
+##  Application Screenshots
 
 ### GraphQL Query Execution
 ![GraphQL Query](./images/GraphQL_query.png)
@@ -83,7 +83,7 @@ auto-comm-hub-graphql/
 └── README.md            # Project documentation
 ```
 
-## 🚧 Development Status
+##  Development Status
 
 ### ✅ **Completed**
 - GraphQL schema design with comprehensive type system
@@ -93,14 +93,14 @@ auto-comm-hub-graphql/
 - TypeScript implementation with full type safety
 - Apollo Server integration with Express middleware
 
-### 🔄 **Planned Enhancements**
+###  **Planned Enhancements**
 - Database integration (PostgreSQL/MongoDB)
 - Authentication and authorization middleware
 - Real-time subscriptions for communication updates
 - Performance optimization with DataLoader
 - API rate limiting and caching strategies
 
-## �📋 GraphQL Schema
+##  GraphQL Schema
 
 ### Types
 
@@ -110,7 +110,7 @@ auto-comm-hub-graphql/
 - **CommunicationStatus**: SENT, DELIVERED, READ, FAILED, CLICKED
 
 
-## 🏗 Project Structure
+##  Project Structure
 
 ```
 auto-comm-hub-graphql/
@@ -125,7 +125,7 @@ auto-comm-hub-graphql/
 └── README.md
 ```
 
-## 🎯 Business Value & Technical Impact
+##  Business Value & Technical Impact
 
 ### **Automotive Financial Services Integration**
 This GraphQL API demonstrates enterprise-level solutions for automotive financial services:
